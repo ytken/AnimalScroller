@@ -6,3 +6,5 @@
 - Retrofit
 - Koin
 - Glide
+## Ссылка на API
+[Zoo Animal Api](https://zoo-animal-api.herokuapp.com/)
