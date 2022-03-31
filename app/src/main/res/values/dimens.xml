@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="appBarTop">40dp</dimen>
+    <dimen name="sidePadding">16dp</dimen>
+    <dimen name="appBarArrowMargin">14dp</dimen>
+    <dimen name="appBarCityCollapsePadding">35dp</dimen>
+    <dimen name="appBarCollapseMenuPadding">20dp</dimen>
+    <dimen name="promoWidth">300dp</dimen>
+    <dimen name="promoHeight">112dp</dimen>
+    <dimen name="typeWidth">88dp</dimen>
+    <dimen name="typeHeight">32dp</dimen>
+    <dimen name="imageItemMargin">22dp</dimen>
+    <dimen name="typeDividerPadding">8dp</dimen>
+    <dimen name="menuHeight">56dp</dimen>
+    <dimen name="buttonItemWidth">87dp</dimen>
+    <dimen name="buttonItemHeight">32dp</dimen>
+    <dimen name="smallCornerRadius">6dp</dimen>
+
+    <dimen name="smallTextSize">13sp</dimen>
+</resources>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">PizzaScroller</string>
+    <string name="plug_city">Москва</string>
+    <string name="navigation_menu">Меню</string>
+    <string name="navigation_profile">Профиль</string>
+    <string name="navigation_shop">Корзина</string>
+</resources>

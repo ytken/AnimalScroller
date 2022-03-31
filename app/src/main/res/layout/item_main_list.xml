@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_margin="@dimen/sidePadding">
+
+    <ImageView
+        android:id="@+id/imageViewIcon"
+        android:layout_width="135dp"
+        android:layout_height="135dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="0dp"
+        android:layout_marginRight="@dimen/imageItemMargin" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewHeading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/appBarCityText"/>
+
+        <TextView
+            android:id="@+id/textViewDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/itemDescriptionText"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="right|bottom"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/buttonShowPrice"
+                android:layout_width="@dimen/buttonItemWidth"
+                android:layout_height="@dimen/buttonItemHeight"
+                android:textColor="@color/type_card_checked_text"
+                android:textStyle="normal"
+                android:textSize="@dimen/smallTextSize"
+                android:background="@drawable/item_button_shape"
+                android:padding="0dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

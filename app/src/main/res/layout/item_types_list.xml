@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/typeCardView"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:minHeight="@dimen/typeHeight"
+    android:minWidth="@dimen/typeWidth"
+    android:layout_height="@dimen/typeHeight"
+    android:layout_width="@dimen/typeWidth"
+    app:cardCornerRadius="@dimen/smallCornerRadius"
+    app:cardElevation="8dp"
+    android:checkable="true"
+    app:checkedIconSize="0dp">
+
+    <TextView
+        android:id="@+id/textViewType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/smallTextSize"
+        android:textStyle="bold"
+        android:textColor="@color/inactive_text_gray"
+        android:background="@color/transparent"
+        android:layout_gravity="center"/>
+
+</com.google.android.material.card.MaterialCardView>

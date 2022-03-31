@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/promoCardView"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="10dp"
+    android:elevation="0dp">
+
+        <ImageView
+            android:layout_width="@dimen/promoWidth"
+            android:layout_height="@dimen/promoHeight"
+            android:scaleType="centerCrop"
+            android:src="@drawable/cat" />
+
+</androidx.cardview.widget.CardView>

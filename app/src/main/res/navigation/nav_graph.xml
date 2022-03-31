@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/menuFragment">
+
+    <fragment
+        android:id="@+id/menuFragment"
+        android:name="ru.ytken.hammersystems.pizzascroller.presentation.ui.fragments.MenuFragment"
+        android:label="activity_main"
+        tools:layout="@layout/fragment_menu" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="ru.ytken.hammersystems.pizzascroller.presentation.ui.fragments.ProfileFragment"
+        android:label="ProfileFragment" />
+    <fragment
+        android:id="@+id/shopFragment"
+        android:name="ru.ytken.hammersystems.pizzascroller.presentation.ui.fragments.ShopFragment"
+        android:label="ShopFragment" />
+</navigation>
