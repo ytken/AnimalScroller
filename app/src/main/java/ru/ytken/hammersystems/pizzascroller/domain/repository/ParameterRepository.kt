@@ -1,10 +1,11 @@
 package ru.ytken.hammersystems.pizzascroller.domain.repository
 
+import io.reactivex.rxjava3.core.Single
 import retrofit2.Response
 import ru.ytken.hammersystems.pizzascroller.data.model.DishGetParam
 
 interface ParameterRepository {
 
-    suspend fun listDishesGet(number: Int) : Response<List<DishGetParam>>
+    fun listDishesGet(number: Int) : Single<List<DishGetParam>>
 
 }

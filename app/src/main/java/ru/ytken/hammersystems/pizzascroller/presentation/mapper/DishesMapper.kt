@@ -3,12 +3,8 @@ package ru.ytken.hammersystems.pizzascroller.presentation.mapper
 import ru.ytken.hammersystems.pizzascroller.data.model.DishGetParam
 import ru.ytken.hammersystems.pizzascroller.presentation.model.DishParam
 
-class DishesMapper {
-
-    fun mapListDishesGetParamToDishParam(
-        listDishesGetParam: List<DishGetParam>
-    ): List<DishParam> {
-        return listDishesGetParam.map {
+fun List<DishGetParam>.mapListDishesGetParamToDishParam(): List<DishParam> {
+        return this.map {
             DishParam(
                 name = it.name,
                 description = it.diet,
@@ -17,5 +13,3 @@ class DishesMapper {
             )
         }
     }
-
-}
